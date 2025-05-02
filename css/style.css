@@ -123,6 +123,10 @@ h6,
     z-index: 1;
 }
 
+.corporate-history {
+    width: 70%;
+}
+
 @media (max-width: 576px) {
     .carousel-caption h5 {
         font-size: 14px;
@@ -133,6 +137,19 @@ h6,
         font-size: 30px;
         font-weight: 600 !important;
     }
+    .carousel-caption a {
+        margin-top: 20px;
+    }
+    .carousel-item {
+        height: 35vh;
+    }
+    .carousel-item img {
+        height: 35vh;
+    }
+    .corporate-history {
+        width: 90%;
+    }
+
 }
 
 .carousel-control-prev,
