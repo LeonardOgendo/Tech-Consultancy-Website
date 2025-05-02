@@ -167,7 +167,7 @@ h6,
         font-size: 1.2rem;
     }
     .services-highlight p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .service-icon {
         height: 65px;
@@ -176,6 +176,9 @@ h6,
     .fa-2x {
         font-size: 25px;
     }
+    .navbar-nav .nav-link {
+        font-size: 0.85rem !important;
+      }
 }
 
 .carousel-control-prev,
