@@ -126,6 +126,10 @@ h6,
 .corporate-history {
     width: 70%;
 }
+.service-icon {
+    width: 90px;
+    height: 90px;
+}
 
 /*-- Mobile-specific styles --*/
 @media (max-width: 767px) {
@@ -164,6 +168,10 @@ h6,
     }
     .services-highlight p {
         font-size: 1rem;
+    }
+    .service-icon {
+        height: 55px;
+        width: 55px;
     }
 }
 
