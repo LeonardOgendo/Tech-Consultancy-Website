@@ -170,8 +170,11 @@ h6,
         font-size: 1rem;
     }
     .service-icon {
-        height: 70px;
-        width: 70px;
+        height: 65px;
+        width: 65px;
+    }
+    .fa-2x {
+        font-size: 25px;
     }
 }
 
