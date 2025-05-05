@@ -108,6 +108,10 @@ h6,
     color: var(--primary);
 }
 
+.navbar-nav .nav-link {
+    font-size: 1.1rem !important;
+}
+
 @media (max-width: 991.98px) {
     .navbar-light .navbar-nav .nav-link  {
         padding: 10px 0;
@@ -133,6 +137,7 @@ h6,
 
 /*-- Mobile-specific styles --*/
 @media (max-width: 767px) {
+    
     .carousel-caption h5 {
         font-size: 14px;
         font-weight: 500 !important;
@@ -178,7 +183,16 @@ h6,
     }
     .navbar-nav .nav-link {
         font-size: 0.85rem !important;
-      }
+    }
+    .logo-container img {
+        height: 20px;
+        width: 35px !important;
+        margin-left: 40px !important;
+        margin-bottom: 3px;
+    }
+    #brand-name {
+        font-size: 10px !important;
+    }
 }
 
 .carousel-control-prev,
@@ -227,74 +241,17 @@ h6,
 .service-item:hover p {
     margin-bottom: 25px !important;
 }
-
-.team-item img {
-    transform: scale(1.15);
-    margin-left: -30px;
-    transition: .5s;
-}
-
-.team-item:hover img {
-    margin-left: 0;
-}
-
-.team-item .team-text {
-    left: -100%;
-    transition: .5s;
-}
-
-.team-item .team-text::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: 50%;
-    right: -60px;
-    margin-top: -30px;
-    border: 30px solid;
-    border-color: transparent transparent transparent var(--primary);
-}
-
-.team-item:hover .team-text {
-    left: 0;
-}
-
-.testimonial-carousel .owl-nav {
-    margin-top: 30px;
+.logo-container {
     display: flex;
-    justify-content: start;
+    flex-direction: column;
 }
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next{
-    position: relative;
-    margin: 0 5px;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background: var(--primary);
-    font-size: 22px;
-    border-radius: 45px;
-    transition: .5s;
+.logo-container img {
+    height: 20px;
+    width: 40px;
+    margin-left: 65px;
+    margin-bottom: 3px;
 }
-
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
-    color: var(--dark);
-}
-
-.testimonial-carousel .owl-item img {
-    width: 90px;
-    height: 90px;
-}
-
-.blog-item img {
-    transition: .5s;
-}
-
-.blog-item:hover img {
-    transform: scale(1.1);
+#brand-name {
+    font-size: 14px;
+    color: #000;
 }
